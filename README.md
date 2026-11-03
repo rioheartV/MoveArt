@@ -19,6 +19,16 @@
 
 この版の顔トラッキングは 1 日 1 時間までです。読み込めるのは PSD と MoveArt のモデルだけです。
 
+## SmartPaint との連携
+
+同じ作者の無料ペイントアプリ [SmartPaint](https://github.com/rioheartV/SmartPaint)（[配布ページ](https://rioheartv.github.io/apps/smartpaint/)）で、キャラの絵を塗り直せます。
+
+1. キャラの上で右クリック →「🖼 PSD出力」→「🎨 SmartPaintで編集」で、パーツ分けの PSD が SmartPaint で開きます。
+2. SmartPaint で 💾 保存（PSD）したら、同じ所の「🎨 SmartPaintの保存を取り込み」を押します。モデルを開き直すと反映されます。
+3. SmartPaint が起動していない時は、最初の 1 回だけ `SmartPaint.exe` の場所を選びます。
+
+やり取りは同じ PC の中だけで行います。
+
 ## はじめかた
 
 1. zip を右クリック →「すべて展開」で、デスクトップやドキュメントなど書き込める場所に展開します（zip の中から直接起動しない・Program Files の中には置かないでください）。
@@ -57,6 +67,16 @@ A free avatar app that animates your own artwork with face tracking and lip sync
 - Recording, screenshots, PSD export, repainting via SmartPaint integration
 
 Face tracking in this version is limited to 1 hour per day. Only PSD files and MoveArt models can be loaded.
+
+### Works with SmartPaint
+
+You can repaint your character with [SmartPaint](https://github.com/rioheartV/SmartPaint), a free painting app by the same author ([download page](https://rioheartv.github.io/apps/smartpaint/), Japanese).
+
+1. Right-click the character → "🖼 PSD出力" (PSD export) → "🎨 SmartPaintで編集" (Edit in SmartPaint) to open the layered PSD in SmartPaint.
+2. After saving the PSD in SmartPaint (💾), choose "🎨 SmartPaintの保存を取り込み" (Import SmartPaint save) from the same menu. Reopen the model to see the changes.
+3. If SmartPaint is not running, you select the location of `SmartPaint.exe` only the first time.
+
+All communication stays on the same PC.
 
 ### Getting started
 
